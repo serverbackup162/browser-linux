@@ -35,7 +35,7 @@ if(window.params.has("mem")) {
         alert("mem invalid. reverting to 256mb");
     }
 } else {
-    window.mem = 32768; //mb
+    window.mem = 8192; //mb
 }
 
 //initial state
